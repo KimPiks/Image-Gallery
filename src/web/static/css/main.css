@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p:nth-child(1) {
+    padding-left: 5vw;
+}
+
+nav p:nth-child(2) {
+    padding-right: 5vw;
+}
+
+nav p a {
+    margin-right: 1vw;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 20vw;
+}
+
+form input {
+    flex-basis: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 5vh;
+}
+
+footer p {
+    margin-right: 5%;
+}
+
+#gallery-form {
+    display: block;
+    width: 100%;
+    height: 90vh;
+}
+
+#save-selected-button {
+    display: flex;
+    justify-content: center;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10vh;
+}
+
+#not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+}
+
+#gallery {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#gallery div {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
